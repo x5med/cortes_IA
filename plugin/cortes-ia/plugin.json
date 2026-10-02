@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cortes-ia",
+  "version": "0.2.0",
+  "description": "Seleção estratégica de trechos de lives e exportação de vídeos com contexto preservado.",
+  "author": {"name": "Cortes IA"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "Cortes IA",
+    "shortDescription": "Cortes de lives com estratégia",
+    "longDescription": "Selecione cortes por público e objetivo, revise contexto e exporte com legendas usando o servidor local Cortes IA.",
+    "developerName": "Cortes IA",
+    "category": "Productivity",
+    "defaultPrompt": "Selecione cortes estratégicos de uma live com contexto preservado."
+  }}}
+}
